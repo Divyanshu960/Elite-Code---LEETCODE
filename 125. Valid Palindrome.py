@@ -5,4 +5,4 @@ class Solution:
         if (len(s)==1):
             return "true"
         return s == s[::-1]
-aaaasas
+
