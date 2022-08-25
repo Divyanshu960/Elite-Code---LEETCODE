@@ -4,4 +4,4 @@ class Solution:
         #print(s)
         if (len(s)==1):
             return "true"
-        return s == s[::-1
+        return s == s[::-1aaaaaa
