@@ -9,5 +9,5 @@ class Solution {
         nums1[k--] = nums1[i--];
       else
         nums1[k--] = nums2[j--]; 
-    }
-}
+    }//end of while loop
+}//end of class
