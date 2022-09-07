@@ -12,5 +12,5 @@ class Solution {
 	            }
 	        }
 	        return sb.toString();
-    }//end of main
+    }//end of function intToRoman
 }//end of class
