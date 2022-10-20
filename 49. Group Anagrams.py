@@ -2,12 +2,12 @@ class Solution:
     def groupAnagrams(self, strings: List[str]) -> List[List[str]]:
         anagrams = dict()
         anagramGroups = []
-        for string in strings:
-            sortedString = "".join(sorted(string))
+        for i in strings:
+            sortedString = "".join(sorted(i))
             stringList = anagrams.get(sortedString)
             if stringList is None:
                 anagrams[sortedString] = []
-            anagrams[sortedString].append(string)
+            anagrams[sortedString].append(i)
         for sortedString in anagrams:
             anagramGroups.append(anagrams[sortedString])
         return anagramGroups
