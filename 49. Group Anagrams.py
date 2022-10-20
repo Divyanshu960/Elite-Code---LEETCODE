@@ -2,7 +2,6 @@ class Solution:
     def groupAnagrams(self, strings: List[str]) -> List[List[str]]:
         anagrams = dict()
         anagramGroups = []
-        
         for string in strings:
             sortedString = "".join(sorted(string))
             stringList = anagrams.get(sortedString)
