@@ -9,9 +9,6 @@ class Solution:
             if stringList is None:
                 anagrams[sortedString] = []
             anagrams[sortedString].append(string)
-        
-        
         for sortedString in anagrams:
             anagramGroups.append(anagrams[sortedString])
-        
         return anagramGroups
