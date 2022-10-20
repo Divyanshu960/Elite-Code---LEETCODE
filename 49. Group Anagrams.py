@@ -5,7 +5,6 @@ class Solution:
         for string in strings:
             sortedString = "".join(sorted(string))
             stringList = anagrams.get(sortedString)
-            
             if stringList is None:
                 anagrams[sortedString] = []
             anagrams[sortedString].append(string)
