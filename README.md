@@ -1,4 +1,4 @@
-# Elite-Code --LEETCODE
+# ELEETCode
 
 
 I am using java as its easier to understand and Java is faster than these known languages.
