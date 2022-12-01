@@ -9,6 +9,6 @@ class Solution(object):
                 current_max_distance = max_index
                 if current_max_distance>i:
                     jumps+=1
-                else:
+                else: 
                     return -1
         return jumps
