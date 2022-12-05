@@ -19,3 +19,4 @@ class Solution:
                     if p[j - 2] == '.' or p[j - 2] == s[i - 1]:
                         dp[i][j] = dp[i][j] or dp[i - 1][j]
         return dp[rows][columns]
+ 
