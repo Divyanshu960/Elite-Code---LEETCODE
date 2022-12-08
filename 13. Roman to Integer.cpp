@@ -5,7 +5,7 @@ public:
         vector<int> cnt(n, 0);
         for(int i = 0; i < n; i++){ //count num for each character
             switch(s[i]){
-                case 'I':
+                case 'I': 
                     cnt[i] = 1;
                     break;
                 case 'V':
