@@ -5,6 +5,6 @@ class Solution {
         for (int i = 1; i < size; i++)
             result = nums[i]^result;
         return result; 
-    }
+    } 
 }
  
