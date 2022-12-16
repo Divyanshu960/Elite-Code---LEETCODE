@@ -6,5 +6,5 @@ class Solution {
             result = nums[i]^result;
         return result; 
     } 
-}
+} 
  
