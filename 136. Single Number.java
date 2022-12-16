@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public int singleNumber(int[] nums) {
         int size = nums.length;
         int result = nums[0];
