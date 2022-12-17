@@ -1,5 +1,5 @@
 class Solution {
-public:  
+public: 
     int romanToInt(string s) {
         int n = s.size();
         vector<int> cnt(n, 0);
